@@ -1,17 +1,36 @@
 configVersion: 1.0.0
+management:
+  docChecksum: 9545d5d82179d462bcc27faba3356f70
+  docVersion: 1.0.0
+  speakeasyVersion: 1.116.0
+  generationVersion: 2.185.0
 generation:
-  comments:
-    disableComments: false
-    omitDescriptionIfSummaryPresent: false
-  baseServerURL: ""
-  flattenGlobalSecurity: true
+  comments: {}
   sdkClassName: Swagger-Petstore
-  singleTagPerOp: false
-  tagNamespacingDisabled: false
+  repoURL: https://github.com/speakeasy-sdks/acme-sample-sdk.git
+  usageSnippets:
+    optionalPropertyRendering: withExample
+features:
+  typescript:
+    core: 3.1.2
+    flattening: 2.81.1
+    globalServerURLs: 2.82.0
 typescript:
-  version: 0.0.1
+  version: 0.1.0
   author: acme
   clientServerStatusCodesAsErrors: true
   flattenGlobalSecurity: true
+  imports:
+    option: openapi
+    paths:
+      callbacks: models/callbacks
+      errors: models/errors
+      operations: models/operations
+      shared: models/components
+      webhooks: models/webhooks
+  inputModelSuffix: input
+  installationURL: https://github.com/speakeasy-sdks/acme-sample-sdk
   maxMethodParams: 4
+  outputModelSuffix: output
   packageName: Swagger-Petstore
+  repoSubDirectory: .
