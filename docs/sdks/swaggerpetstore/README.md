@@ -25,7 +25,7 @@ Creates a new pet in the store. Duplicates are allowed
 ```typescript
 import { SwaggerPetstore } from "Swagger-Petstore";
 
-(async() => {
+async function run() {
   const sdk = new SwaggerPetstore();
 
   const res = await sdk.addPet({
@@ -35,7 +35,9 @@ import { SwaggerPetstore } from "Swagger-Petstore";
   if (res.statusCode == 200) {
     // handle response
   }
-})();
+}
+
+run();
 ```
 
 ### Parameters
@@ -65,7 +67,7 @@ deletes a single pet based on the ID supplied
 import { SwaggerPetstore } from "Swagger-Petstore";
 import { DeletePetRequest } from "Swagger-Petstore/dist/models/operations";
 
-(async() => {
+async function run() {
   const sdk = new SwaggerPetstore();
 const id: number = 441876;
 
@@ -74,7 +76,9 @@ const id: number = 441876;
   if (res.statusCode == 200) {
     // handle response
   }
-})();
+}
+
+run();
 ```
 
 ### Parameters
@@ -104,7 +108,7 @@ Returns a user based on a single ID, if the user does not have access to the pet
 import { SwaggerPetstore } from "Swagger-Petstore";
 import { FindPetByIdRequest } from "Swagger-Petstore/dist/models/operations";
 
-(async() => {
+async function run() {
   const sdk = new SwaggerPetstore();
 const id: number = 674361;
 
@@ -113,7 +117,9 @@ const id: number = 674361;
   if (res.statusCode == 200) {
     // handle response
   }
-})();
+}
+
+run();
 ```
 
 ### Parameters
@@ -147,7 +153,7 @@ Sed tempus felis lobortis leo pulvinar rutrum. Nam mattis velit nisl, eu condime
 import { SwaggerPetstore } from "Swagger-Petstore";
 import { FindPetsRequest } from "Swagger-Petstore/dist/models/operations";
 
-(async() => {
+async function run() {
   const sdk = new SwaggerPetstore();
 const limit: number = 509016;
 const tags: string[] = [
@@ -159,7 +165,9 @@ const tags: string[] = [
   if (res.statusCode == 200) {
     // handle response
   }
-})();
+}
+
+run();
 ```
 
 ### Parameters

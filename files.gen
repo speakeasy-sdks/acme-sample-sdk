@@ -28,7 +28,6 @@ src/models/components/newpet.ts
 src/models/errors/index.ts
 src/models/operations/index.ts
 src/models/components/index.ts
-USAGE.md
 docs/models/operations/addpetresponse.md
 docs/models/operations/deletepetrequest.md
 docs/models/operations/deletepetresponse.md
@@ -40,4 +39,5 @@ docs/models/components/pet.md
 docs/models/components/errort.md
 docs/models/components/newpet.md
 docs/sdks/swaggerpetstore/README.md
+USAGE.md
 .gitattributes
