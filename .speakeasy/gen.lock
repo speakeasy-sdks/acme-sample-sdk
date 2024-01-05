@@ -1,0 +1,61 @@
+lockVersion: 2.0.0
+id: d18d09c9-368c-4674-83c6-d39d03c39ab5
+management:
+  docChecksum: 9545d5d82179d462bcc27faba3356f70
+  docVersion: 1.0.0
+  speakeasyVersion: internal
+  generationVersion: 2.225.2
+  releaseVersion: 0.2.1
+  configChecksum: 94f32319a6191dea87f58b34b4b2d536
+  repoURL: https://github.com/speakeasy-sdks/acme-sample-sdk.git
+  repoSubDirectory: .
+  installationURL: https://github.com/speakeasy-sdks/acme-sample-sdk
+features:
+  typescript:
+    core: 3.4.1
+    flattening: 2.81.1
+    globalServerURLs: 2.82.1
+generatedFiles:
+  - src/sdk/sdk.ts
+  - .eslintrc.yml
+  - jest.config.js
+  - package-lock.json
+  - package.json
+  - src/index.ts
+  - src/internal/utils/contenttype.ts
+  - src/internal/utils/headers.ts
+  - src/internal/utils/index.ts
+  - src/internal/utils/pathparams.ts
+  - src/internal/utils/queryparams.ts
+  - src/internal/utils/requestbody.ts
+  - src/internal/utils/retries.ts
+  - src/internal/utils/security.ts
+  - src/internal/utils/utils.ts
+  - src/sdk/index.ts
+  - src/models/errors/sdkerror.ts
+  - src/types/index.ts
+  - src/types/rfcdate.ts
+  - tsconfig.json
+  - src/models/operations/addpet.ts
+  - src/models/operations/deletepet.ts
+  - src/models/operations/findpetbyid.ts
+  - src/models/operations/findpets.ts
+  - src/models/components/pet.ts
+  - src/models/components/error.ts
+  - src/models/components/newpet.ts
+  - src/models/errors/index.ts
+  - src/models/operations/index.ts
+  - src/models/components/index.ts
+  - docs/models/operations/addpetresponse.md
+  - docs/models/operations/deletepetrequest.md
+  - docs/models/operations/deletepetresponse.md
+  - docs/models/operations/findpetbyidrequest.md
+  - docs/models/operations/findpetbyidresponse.md
+  - docs/models/operations/findpetsrequest.md
+  - docs/models/operations/findpetsresponse.md
+  - docs/models/components/pet.md
+  - docs/models/components/errort.md
+  - docs/models/components/newpet.md
+  - docs/sdks/swaggerpetstore/README.md
+  - USAGE.md
+  - .gitattributes
