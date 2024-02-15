@@ -29,7 +29,7 @@ async function run() {
   const sdk = new SwaggerPetstore();
 
   const res = await sdk.addPet({
-    name: "string",
+    name: "<value>",
   });
 
   if (res.statusCode == 200) {
@@ -157,7 +157,7 @@ async function run() {
   const sdk = new SwaggerPetstore();
 const limit: number = 509016;
 const tags: string[] = [
-  "string",
+  "<value>",
 ];
 
   const res = await sdk.findPets(limit, tags);

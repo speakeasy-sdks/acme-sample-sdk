@@ -4,15 +4,15 @@ management:
   docChecksum: 9545d5d82179d462bcc27faba3356f70
   docVersion: 1.0.0
   speakeasyVersion: internal
-  generationVersion: 2.225.2
-  releaseVersion: 0.2.1
-  configChecksum: 94f32319a6191dea87f58b34b4b2d536
+  generationVersion: 2.258.2
+  releaseVersion: 0.2.2
+  configChecksum: 27b13011a5e40353386ecb079fcab8d0
   repoURL: https://github.com/speakeasy-sdks/acme-sample-sdk.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/acme-sample-sdk
 features:
   typescript:
-    core: 3.4.1
+    core: 3.4.7
     flattening: 2.81.1
     globalServerURLs: 2.82.1
 generatedFiles:
