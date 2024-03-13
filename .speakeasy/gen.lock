@@ -3,18 +3,18 @@ id: d18d09c9-368c-4674-83c6-d39d03c39ab5
 management:
   docChecksum: 9545d5d82179d462bcc27faba3356f70
   docVersion: 1.0.0
-  speakeasyVersion: internal
-  generationVersion: 2.258.2
-  releaseVersion: 0.2.2
-  configChecksum: 27b13011a5e40353386ecb079fcab8d0
+  speakeasyVersion: 1.207.1
+  generationVersion: 2.280.6
+  releaseVersion: 0.2.3
+  configChecksum: 4c6b94885b0aea773e615b05f897f804
   repoURL: https://github.com/speakeasy-sdks/acme-sample-sdk.git
   repoSubDirectory: .
   installationURL: https://github.com/speakeasy-sdks/acme-sample-sdk
 features:
   typescript:
-    core: 3.4.7
+    core: 3.4.8
     flattening: 2.81.1
-    globalServerURLs: 2.82.1
+    globalServerURLs: 2.82.2
 generatedFiles:
   - src/sdk/sdk.ts
   - .eslintrc.yml
